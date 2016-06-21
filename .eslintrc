@@ -1,0 +1,26 @@
+{
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "indent": ["error", 4, {"SwitchCase": 1}],
+        "curly": "off",
+        "comma-dangle": ["error", "always-multiline"],
+        "eqeqeq": "error",
+        "no-new": "off",
+        "no-use-before-define": "off",
+        "no-unused-vars": "error",
+        "no-trailing-spaces": "error",
+        "strict": "off",
+        "semi": "off",
+        "quotes": ["error", "single", {"allowTemplateLiterals": true}]
+    }
+}
